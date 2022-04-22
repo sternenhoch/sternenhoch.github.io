@@ -1,14 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Titre de ma page -->
+    <title>Les Indispensables</title>
+    <!-- Icone de l'onglet -->
+    <link rel="stylesheet" href="Styley.CSS">
+    <link rel="shortcut icon" href="flat cam logo.png">
 </head>
 <body>
-    <h1>Cours GIT HUB</h1>
-    <h2>VERSION 2</h2>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, fuga, harum iure debitis obcaecati odit consequatur blanditiis necessitatibus repellendus praesentium amet dolor, impedit nulla quisquam distinctio libero eveniet dignissimos sit.
-</body>
+    <header>
+      <h1>A quoi sert cette page ?</h1>
+            <p> Cette page a pour but de vous aider à <em>faire votre valise</em>  pour un voyage au Cameroun.
+                La première question à vos poser est la suivante: quel est le ou le sbuts de mon voyage ? </p>
+                <span>aujiur</span>   
+    </header>
+    <section>
+        <div><h4>C'est parti mon kiki :)</h4> 
+            <img src="valise.jpg" height="200" alt="image-valise"></div>
+    <div>
+        <h3> On commence les listes</h3> 
+        <ul>
+            <li>pain de savon de petite taille</li>
+            <li>couteau suisse</li>
+            <li>serviette qui seche vite</li>
+            <li type="circle" ><span>&#9742;</span> </a> manger des poires c'est bizoire</li>
+        </ul>
+        <ol>
+        
+            <li>tongs pour la douche</li>
+            <li>trousse d toilette suspendue</li>
+            <li>sachets zip</li>
+        </ol>
+    </div>
+        </div>
+    <table border="1" width="50%" >
+        <caption>Ce que vous devez absoument gouter!</caption>
+        <thead>
+           <tr>
+            <th>salé</th>   
+            <th>sucré</th>   
+            <th>mixte</th>   
+           </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td>soyas!!!</td>
+                <td>croquettes</td>
+                <td>okok</td>
+            </tr>
+            <tr>
+                <td>poisson braisé</td>
+                <td>jus Njinja</td>
+                <td>mets d'arachide</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </section>
+<br>
+    <section>
+    
+        <div>
+            Lien pour la salivance mentale ( au vu des conflits, c'est pas demain qu'on va le visiter maaais bon):
+            <br><br>
+            <a href="https://www.google.com/search?q=le+mon+cameroun&oq=le+mon+cameroun&aqs=chrome..69i57j46i512j0i22i30l8.4921j0j7&sourceid=chrome&ie=UTF-8" target="_blank" >recherche pour le mont Cameroun</a>
+        </div>
+
+        <div>
+            Pour insérer un lien il suffit de taper a pour ancre et le hhref apparrait
+        </div>
+        <div>
+            Maintnant pour saliver en vrai : <video src="Glamor - 113515.mp4"heigh="60"autoplay loop muted></video>
+        </div>
+    </section>
+    <br>
+    <section>
+        <h2>Formu mu mu mulâïre </h2>
+        <form action="/action.php"method="post">
+            <label for="pseudo">Pseudonyme</label>
+            <input id="pseudo" type="text" placeholder="entrez votre pseudo"><br>
+            <label for="age">age</label>
+            <input type="age" type="number" min="18" max="35" step="1" value="0"><br>
+            
+
+            <label for="Provenancy">Provenance</label>
+            <select id="Provenancy">
+                <option value="Europe">Europe</option>
+                <option value="Non Europe">Non Europe</option>
+                <option selected value="Non Europe">Non Europe</option>
+            </select><br>
+
+            <div>
+               <input type="radio" name="type"id="North"> 
+               <label for="North">Nord</label>
+               <input type="radio" name="type" checked id="South"> 
+               <label for="South">Sud</label>
+         
+            </div>
+
+            <textarea cols="30" rows="10" placeholder="Dites nous ce que vous auriez aimer trouver dans cette page que vous n'avez pas trouvé :)"></textarea><br>
+            <label><input type="checkbox">Accepter nos conditions svppppppp</label><br>
+            <input type="submit"value="envoyer vos réponses">
+        </form>
+
+        
+    </section>
+    <br>
+
+    <footer>
+        <a href="AZE.gmail.com">Envoyer vos propositions</a><br>
+
+        <a href="notice.txt">cliquer pour afficher la notice</a>
+    </footer>
+    
+</body> 
 </html>

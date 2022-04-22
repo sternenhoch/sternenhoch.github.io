@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+h1{
+    color: #6cc58793;
+    font-size: 2rem;
+    font-family:'Square Peg', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 5px 0 0 rgba(224, 176, 121, 0.514);
+}
