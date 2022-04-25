@@ -1,10 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 
+@font-face {
+    font-family: "font-1";
+    src: url(./Assets/SquarePeg-Regular.ttf);
+}
+
+body {
+    font-family: "font-1", serif;
+    font-size: 2em;
+    background: url(./Assets/boule.jpg) no-repeat fixed right/cover;
+    height: 100vh;
+    color: rgb(207, 212, 179);
+    
+
+
+}
+
 h1{
-    color: #6cc58793;
-    font-size: 2rem;
+    color: #fc282893;
+    font-size: 2em;
     font-family:'Square Peg', cursive;
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-shadow: 5px 0 0 rgba(224, 176, 121, 0.514);
+    text-align: center;
+    text-shadow: 5px 0 0 rgba(215, 236, 95, 0.39);
+}
+
+main {
+    background: gray;
+    width: 100%;
+    min-height: 1%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    border-radius: 30px;
+    box-shadow: 1px 7px 18px 3px maroon;
 }
